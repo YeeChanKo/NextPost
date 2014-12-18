@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Post Your News - NEXT POST</title>
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/stylish-portfolio.css" rel="stylesheet">
+<link href="css/mycss.css" rel="stylesheet">
+<link href="https://cdn.rawgit.com/openhiun/hangul/master/nanumbarungothic.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<header id="top" class="header">
+		<div class="text-vertical-center">
+			<center>
+				<form method="post" action="PostNews.do">
+					<div class="input-group charlie">
+						<span class="input-group-addon">제목</span> <input type="text" name="TITLE" class="form-control input-lg">
+					</div>
+					<div class="input-group charlie">
+						<span class="input-group-addon">작성자</span> <input type="text" name="WRITER" class="form-control input-lg">
+					</div>
+					<div class="input-group charlie">
+						<span class="input-group-addon">내용</span>
+						<textarea name="CONTENT" class="form-control input-lg" id="content-input"></textarea>
+					</div>
+					<input type="submit" value="POST IT!" class="btn btn-dark btn-lg" id="postit">
+				</form>
+			</center>
+		</div>
+	</header>
+</body>
+
+</html>
